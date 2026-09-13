@@ -21,9 +21,17 @@ The program defines a class `Demo` with:
    - Create an instance of the `Demo` class.
    - Delete the object using the `del` keyword.
 ## Program
-Add code Here
-
+```
+class demo:
+    def __init__(self):
+        self.status="Alive"
+    def __del__(self):
+        print("The object no longer exists")
+a=demo()
+print(a.status)
+```
 ## 🧪 Output
+<img width="964" height="219" alt="image" src="https://github.com/user-attachments/assets/a8a7f920-ff49-4721-88e6-73269f995864" />
 
 ## Result
-
+Thus the python Program using Destructor in class is done and output is verified
